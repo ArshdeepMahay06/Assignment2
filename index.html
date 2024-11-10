@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Data of the Website -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment2 : How Sweet Is This">
+  <meta name="robots" content="noIndex, noFollow">
+
+  <!-- Linking the Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0, 400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Linking the CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- title of the Website -->
+  <title>Assignment2</title>
+
+</head>
+
+<body>
+  <!-- Header of the Website -->
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="./img/company-logo.png" alt="Logo of the Company"></a>
+    </div>
+
+    <!-- Menu of the Website -->
+    <menu>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About US</a></li>
+      <li><a href="#">Contact US</a></li>
+    </menu>
+
+  </header>
+
+  <!-- Section of the Website -->
+  <section class="masthead">
+    <video autoplay loop muted>
+      <source src="./img/ab-zyaada-caramelly-aur-zyaada-tasty---alpenliebe-gold.mp4">
+    </video>
+    <div>
+      <h1>Smooth and genuine</h1>
+      <p>
+        <span>Alpenliebe</span>, a trusted brand with European origins, is celebrated for its smooth, creamy texture
+        that melts
+        effortlessly in your mouth. Share the joy with your loved ones by offering them the deliciously indulgent taste
+        of Alpenliebe candies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main content of the Website -->
+  <main>
+    <!-- Sections that will have alternate content -->
+    <section>
+      <div>
+        <h3>Exceptional taste</h3>
+        <p>Alpenliebe candies and lollipops provide a one-of-a-kind experience with their rich, creamy milky flavor that
+          delights both children and adults. With an extensive variety of flavors, an exceptionally smooth texture, and
+          premium packaging, Alpenliebe is truly irresistible to all.</p>
+      </div>
+      <div class="image-container">
+        <img src="./img/pic_alpenliebe_packs_1.jpg" alt="image 2">
+      </div>
+    </section>
+    <section>
+
+      <div class="image-container">
+        <img src="./img/pic_alpenliebe_packs_2.jpg" alt="image 3">
+      </div>
+      <div>
+        <h3>Loved around the world</h3>
+        <p>Available in almost 30 countries througout the world, Alpenliebe is the preferred candy in China, India and
+          other European and Asian markets. It comes in a large variety of textures, flavours and pack sizes.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer of the Website -->
+  <footer>
+    <!-- Logo of the company -->
+    <div>
+      <a href="index.html"><img src="./img/company-logo.png" alt="Logo of the Company"></a>
+    </div>
+    <!-- About us Section -->
+    <section class="about-us">
+      <h2>About US</h2>
+      <p>
+        At Alpenliebe, we’re passionate about creating delicious, high-quality candy that brings joy to every moment.
+        Founded in 1990, we use only the finest ingredients to craft our treats by hand, ensuring every bite is as fresh
+        and flavorful as possible. Whether you’re celebrating, gifting, or simply indulging, our candies are made to
+        make life a little sweeter.
+      </p>
+    </section>
+    <!-- Form in the website -->
+    <section class="contact-form">
+      <h2>Leave us a message</h2>
+      <form action="action.php" enctype="multipart/form-data" method="post">
+        <div>
+          <label for="inp-name">NAME </label>
+          <input type="text" id="inp-name" placeholder="Type Your Name Here">
+        </div>
+        <div>
+          <label for="inp-email">E-MAIL </label>
+          <input type="email" id="inp-email" placeholder="Type Your Email Here">
+        </div>
+        <div>
+          <label for="inp-placeholder">COMMENT OR MESSAGE</label>
+          <textarea id="inp-placeholder" placeholder="Type Your Message Here"></textarea>
+        </div>
+        <button type="submit" class="primary-btn">SUBMIT</button>
+      </form>
+    </section>
+    <p>
+      ©2024 | All rights reserved.
+    </p>
+  </footer>
+</body>
+
+</html>

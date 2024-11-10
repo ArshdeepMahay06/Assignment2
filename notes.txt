@@ -1,0 +1,51 @@
+Color Scheme
+
+Colors
+
+  White    = #ffffff
+  Red      = #E30514
+  Blue     = #2D3B94
+  Purple   = #7E0E73
+  offBlue  = #0055A3
+  offBrown = #D1930D
+
+
+Header 
+  It will have a Logo, Menu 
+  {
+  Background : Purple
+  Font-Color : White
+  }
+
+
+
+
+Masthead
+  It will have a Heading of Candy name and Embeded Background Video
+  Containing a Heading , some paragraph having custom Font
+
+  Color{
+    Background: offBrown
+    Color     : White
+}
+
+
+Main Contents
+  
+
+
+
+Footer
+  It will have a logo, Company information, Contact Form
+  Color-Scheme{
+    Blue
+    offBlue
+    White
+  }
+  Contact Form{
+    (White, Blue)  -> Theme
+  }
+
+
+
+
