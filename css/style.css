@@ -155,6 +155,11 @@ main section
 main section .image-container{
   display: flex;
 }
+
+main section div.image-container:nth-child(2){
+	order: -1;
+}
+
 /* Two sections that will contain alternate */
 main section:nth-child(1) div img,
 main section:nth-child(2) div img{
