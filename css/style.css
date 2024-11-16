@@ -156,11 +156,35 @@ main section .image-container{
   display: flex;
 }
 
-main section div.image-container:nth-child(2){
-	order: -1;
+/* Two sections that will contain alternate */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-/* Two sections that will contain alternate */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+main section:nth-child(1) div:nth-child(1),main section:nth-child(2) div:nth-child(1){
+	animation: 1.7s ease-out 0s 1 slideInFromLeft;
+}
+
+main section:nth-child(1) div:nth-child(2),main section:nth-child(2) div:nth-child(2){
+	animation: 1.7s ease-out 0s 1 slideInFromRight;
+}
+
+
 main section:nth-child(1) div img,
 main section:nth-child(2) div img{
   display: block;
@@ -294,10 +318,9 @@ footer form .primary-btn:hover {
     display: flex;
     flex-direction: column;
   }
-  main section:first-child {
-    order: -1;
-  }
-  footer{
+  main section div.image-container:nth-child(2){
+	order: -1;
+} footer{
     padding: 2% 4%;
   }
 }
